@@ -1,0 +1,8 @@
+scikit-learn==1.1.2
+pandas==1.4.4
+h5py==3.7.0
+numpy==1.19.2
+jupyter==1.0.0
+tables==3.7.0
+traitlets==5.1.1
+pygments==2.4.1
