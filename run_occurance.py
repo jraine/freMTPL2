@@ -75,7 +75,8 @@ def main():
     
     #equally could try and train with single output but due to high rate of zero unlikely to learn the tail range unless weight each event by YearCost, but need to find a way to preserve rate of predictions at zero
     # rate_net = get_dense(9,1,0)
-    #softplus on output, have max value of 5, increase weight contribution by year cost
+    #softplus on output, have max value of 5 or so
+    #poisson loss function for regression training, assuming rate distribution follows poisson/gamma distribution
 
     #Get regression network for cost of average claim, we know it is peaked with log range and in counts
     #Need a log transform on target values
